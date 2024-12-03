@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+  font-family: Inter, sans-serif;
+  font-feature-settings: "ss02";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Inter, sans-serif;
+  font-feature-settings: "ss02";
+}
+
+#heading h1{
+  font-weight: 900;
+  color: var(--accent-color);
+  text-transform: uppercase;
+  font-feature-settings: "ss02";
+}
+
+h1{
+  font-weight: 900;
+  color: var(--accent-color);
+  text-transform: uppercase;
+  font-feature-settings: "ss02";
+}
+
+h2 {
+  font-weight: 800;
+}
+
+h3 {
+  font-weight: 700;
+}
+
+h4 {
+  font-weight: 600;
+}
+
+h5 {
+  font-weight: 500;
+}
+
+h6 {
+  font-weight: 450;
+}
+
+hr {
+	box-shadow: var(--edge-highlight);
+	border: none;
+	border-radius: 999px;
+	background-color: var(--accent-color);
+	width: 50%;
+	height: 0.25rem;
+
+    &::after {
+        display: none;
+    }
+}

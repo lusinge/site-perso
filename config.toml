@@ -1,0 +1,77 @@
+base_url = "https://blog.lulurl.fr"
+
+title = "WORLD WIDE LULU"
+
+default_language = "fr"
+
+theme = "duckquill"
+
+compile_sass = true
+
+generate_feeds = true
+
+feed_filenames = ["rss.xml", "atom.xml"]
+
+build_search_index = true
+
+taxonomies = [{ name = "tags", feed = true }]
+
+author = "lulu"
+
+[markdown]
+highlight_code = true
+
+highlight_theme = "css"
+
+highlight_themes_css = [
+  { theme = "solarized-dark", filename = "syntax-theme-dark.css" },
+  { theme = "solarized-light", filename = "syntax-theme-light.css" },
+]
+
+smart_punctuation = true
+
+bottom_footnotes = true
+
+show_backlinks = true
+
+[extra]
+
+accent_color = "#ffa348"
+
+emoji_favicon = "🪆"
+
+date_format = "%A %e %B %Y" # Vendredi 8 Octobre 2023
+
+issues_url = ""
+
+source_url = "https://github.com/lusinge/site-perso"
+
+styles = ["custom.css"]
+
+fix_contrast = true
+
+show_reading_time = true
+
+[extra.nav]
+
+links = [
+  { url = "@/blog/_index.md", name = "Blog" },
+]
+
+show_feed = true
+
+show_theme_switcher = true
+
+show_repo = true
+
+[extra.footer]
+
+johnvert_ref = "luciengheerbrant.com"
+
+show_copyright = true
+
+show_johnvert = false
+
+show_powered_by = true
+
+show_source = false
