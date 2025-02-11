@@ -44,7 +44,7 @@ Les inscriptions à l'UTS ouvrent mi-février et **ferment fin mars**. La plage 
 {% end %}
 
 
-## Retour en taupe (un peu)
+### Retour en taupe (un peu)
 
 Dès le début, l'UTS demande une preuve de **210** ECTS dans un relevé de note. En français et en anglais. Les 90 ECTS de l'ISMIN, c'est facile à avoir. Pour ceux qui précédent, il faut donc une preuve des crédits issus de la prépa. Rassure-toi, les prépas sont généralement prêtes pour ce genre de situations. Appelle ou envoie un mail à ta prépa, en expliquant que tu fais un DD dans ton école, que tu veux une copie de tes ECTS en anglais et en français. Ils t'enverront le nécessaire.
 
@@ -86,7 +86,7 @@ Une autre semaine s'écoule et toujours rien. J'envoie de moi-même un mail à l
 >
 >We look forward to receiving the documents from your home university.
 
-??? Attend quoi comment ça, le pôle international m'a dit que n'a rien reçu perso. Je renvoie un mail pour en savoir un peu plus.
+??? Attend quoi comment ça, le pôle international m'a dit qu'ils ont rien reçu. Je renvoie un mail pour en savoir un peu plus.
 
 >Hi Lucien,
 >
@@ -96,9 +96,9 @@ Une autre semaine s'écoule et toujours rien. J'envoie de moi-même un mail à l
 >
 > 
 >
->    [email de Berangere USAI]
+>    [email du pôle international ISMIN]
 > 
->    [email de Stephanie SERREC]
+>    [email du pôle international IMT Atlantique]
 >
 > 
 >
@@ -213,4 +213,4 @@ Ensuite, il faut s'inscrire aux cours choisis. Pour ça, l'UTS donne le mail d'u
 
 ### Fin juillet
 
-C'est la rentrée ! L'UTS envoie par mail les trucs obligatoire à faire pour la pré-rentrée.
+C'est la rentrée ! L'UTS envoie par mail les trucs obligatoire à faire pour la pré-rentrée. Lis bien les mails et tout devrait bien se passer !
