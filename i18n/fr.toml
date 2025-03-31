@@ -1,4 +1,4 @@
-language_name = "Français"  # Shown in language picker for multi-language sites.
+language_name = "🇫🇷"  # Shown in language picker for multi-language sites.
 date_locale = "fr_FR"
 full_stop = "."  # Used at the end of a sentence.
 
@@ -6,6 +6,8 @@ full_stop = "."  # Used at the end of a sentence.
 # Should match the names in config.extra.menu and config.extra.footer_menu.
 blog = "blog"
 archive = "archives"
+tags = "étiquettes"
+filter_by_tag = "Filtrer par étiquette"
 projects = "projets"
 about = "à propos"
 contact = "contact"
