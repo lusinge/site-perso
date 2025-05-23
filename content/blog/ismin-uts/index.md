@@ -94,10 +94,12 @@ L'université utilise des _credit points_ (cp) à la place des ECTS. 24 cp sont 
 Les matières associées à chaques majeures sont disponibles [ici](https://coursehandbook.uts.edu.au/course/2025/C04271), puis `Structure > Structure > Majors > [majeure choisie]`.
 
 {% alert(warning=true) %}
-Sur le lien vers le "handbook" que j'ai donné juste au-dessus, ne prêtez surtout pas attention aux totaux de crédits nécessaire qui y sont écrit (Les "18 Credit Points", "42 Credit Points", "12 Credit Points"...) 
+Sur le lien vers le "handbook" que j'ai donné juste au-dessus, ne prêtez surtout pas attention aux totaux de crédits nécessaire qui y sont écrit (Les "18 Credit Points", "42 Credit Points", "12 Credit Points"...)
+
+<fig>
 {{ image(url="img/ects.webp#transparent", transparent=true) }}
 <figcaption>Fig. 3 : Je vais rester poli parce qu'il y a des chances que l'administration lise ça.</figcaption>
-
+</fig>
 
 J'explique tout ici :
 {% end %}
