@@ -1,17 +1,16 @@
 +++
-title = "TUTORIEL : COMMENT OBTENIR UN DD À SYDNEY ⁉️ (2024) (HACK) 🤯🤯"
+title = "Comment obtenir un DD à Sydney !?"
+description = "Tu es un jeune ISMIN&nbsp;? Tu regardes les moutons dans le patio avec désarroi&nbsp;? Tu fantasmes sur une vida loca dans une grande ville, à l’opposé de Gardanne&nbsp;? Tu rêves d’aller à une plage encore plus accessible et plus bondée que le Prado&nbsp;? Cet article est fait pour toi&nbsp;!🫵"
 date = 2024-12-01
 [taxonomies]
 tags = ["Sydney", "UTS"]
 [markdown]
 numbersections = true
 [extra]
-banner = "img/opera-house-top.webp"
 toc = true
 katex = true
+subtitle = "TUTO (2024) (HACK)"
 +++
-
-Tu es un jeune ISMIN ? Tu regardes les moutons dans le patio avec désarroi ? Tu fantasmes sur une vida loca dans une grande ville, à l'opposé de Gardanne ? Tu rêves d'aller à une plage encore plus accessible et plus bondée que le Prado ? Cet article est fait pour toi 🫵
 
 ![L'Opéra de Sydney - Instax Wide 300](img/opera-house.webp)
 <figcaption>Fig. 1 : L'Opéra de Sydney - Instax Wide 300</figcaption>

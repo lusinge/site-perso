@@ -1,7 +1,7 @@
 +++
 +++
 
-# Bienvenue !
+# World Wide Lulu
 
 ## Bienvenue sur mon blog !
 
