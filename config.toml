@@ -46,7 +46,7 @@ issues_url = ""
 
 source_url = "https://github.com/lusinge/site-perso"
 
-styles = ["custom.css"]
+styles = ["custom.css", "article.css"]
 
 fix_contrast = true
 
