@@ -2,9 +2,9 @@
 @use "../themes/duckquill/sass/mods/modern-hr";
 
 body {
-  font-family: Inter, sans-serif;
-  font-feature-settings: "ss02";
-  hyphens: auto;
+		font-family: Inter, sans-serif;
+		font-feature-settings: "ss02";
+		hyphens: auto;
 }
 
 h1,
@@ -13,27 +13,31 @@ h3,
 h4,
 h5,
 h6 {
-	text-wrap: wrap;
+		text-wrap: wrap;
+}
+
+h1 {
+		text-align: justify;
+		text-transform: uppercase;
 }
 
 article > p {
-  	text-align: justify;
-
+	  	text-align: justify;
 }
 
 #title {
-	  	text-align: justify;
-	  	text-transform: uppercase;
-	  h1 {
-	    color: var(--fg-color);
-	    background-image: none;
-}
+		text-align: justify;
+		text-transform: uppercase;
+		h1 {
+			color: var(--fg-color);
+			background-image: none;
+		}
 
-	  subtitle {
-	    font-style: italic;
-      line-height: 1.25;
-	    font-size: var(--font-size-xx-large);
-	  }
+		subtitle {
+			font-style: italic;
+		  line-height: 1.25;
+			font-size: var(--font-size-xx-large);
+		}
 }
 
 #heading	description {
