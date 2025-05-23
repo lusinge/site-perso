@@ -4,6 +4,7 @@
 body {
   font-family: Inter, sans-serif;
   font-feature-settings: "ss02";
+  hyphens: auto;
 }
 
 h1,
@@ -17,12 +18,11 @@ h6 {
 
 article > p {
   	text-align: justify;
-  	hyphens: auto;
+
 }
 
 #title {
 	  	text-align: justify;
-	  	hyphens: auto;
 	  	text-transform: uppercase;
 	  h1 {
 	    color: var(--fg-color);
@@ -40,7 +40,6 @@ article > p {
 	  text-transform: uppercase;
 		font-style: italic;
 		text-align: justify;
-		hyphens: auto;
 	}
 
 h2 {
@@ -56,6 +55,5 @@ table {
 
 	td, th {                      /* stop long words from stretching cells */
 		word-break: break-word;
-		hyphens: auto;
 	}
 }
