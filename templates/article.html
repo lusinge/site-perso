@@ -1,4 +1,5 @@
 {% extends "duckquill/templates/article.html" %}
+{% import "macros/references.html" as macros_references %}
 
 {% block content %}
 {%- set date_format = macros_translate::translate(key="date_format", default="%B %d, %Y", language_strings=language_strings) -%}
@@ -38,43 +39,49 @@
 		{%- endif -%}
 
 	  <div id="title">
-		  <h1>{{ page.title }}</h1>
+		  <h1>{{ page.title | safe }}</h1>
     		{%- if page.extra.subtitle %}
-			  <subtitle>{{ page.extra.subtitle}}</subtitle>
+	      <div>
+			    <subtitle>{{ page.extra.subtitle | safe }}</subtitle>
+	      </div>
 		  {%- endif %}
     </div>
 
-		{%- if page.description %}
-			<description>{{ page.description | markdown | safe }}</description>
+	  	{%- if page.description %}
+	    <div id="description">
+			  <description>{{ page.description | safe }}</description>
+	    </div>
 		{%- endif %}
 
-		{%- if page.authors or config.extra.show_reading_time -%}
-			<small>
-				{%- if page.authors -%}
-					<span>{% include "partials/authors.html" -%}</span>
-					{%- if config.extra.show_reading_time -%}
-						<span> {{ config.extra.separator | default(value="•") }} </span>
-					{%- endif -%}
-				{%- endif -%}
+	  <div>
+		    {%- if page.authors or config.extra.show_reading_time -%}
+			  <small>
+				  {%- if page.authors -%}
+					  <span>{% include "partials/authors.html" -%}</span>
+					  {%- if config.extra.show_reading_time -%}
+						  <span> {{ config.extra.separator | default(value="•") }} </span>
+					  {%- endif -%}
+				  {%- endif -%}
 
-				{%- if config.extra.show_reading_time -%}
-					<span>{{ macros_translate::translate(key="minutes_read", number=page.reading_time, default="$NUMBER minute read", language_strings=language_strings) }}</span>
-					{%- if page.taxonomies -%}
-						<span> {{ config.extra.separator | default(value="•") }} </span>
-					{%- endif -%}
-				{%- endif -%}
-			</small>
-		{%- endif -%}
+				  {%- if config.extra.show_reading_time -%}
+					  <span>{{ macros_translate::translate(key="minutes_read", number=page.reading_time, default="$NUMBER minute read", language_strings=language_strings) }}</span>
+					  {%- if page.taxonomies -%}
+						  <span> {{ config.extra.separator | default(value="•") }} </span>
+					  {%- endif -%}
+				  {%- endif -%}
+			  </small>
+		  {%- endif -%}
 
-		{%- if page.taxonomies -%}
-			{%- for name, taxon in page.taxonomies %}
-				<ul class="tags">
-					{%-for item in taxon -%}
-						<li><a class="tag" href="{{ get_taxonomy_url(kind=name, name=item, lang=lang) }}">{{ item }}</a></li>
-					{%- endfor %}
-				</ul>
-			{%- endfor -%}
-		{%- endif %}
+		  {%- if page.taxonomies -%}
+			  {%- for name, taxon in page.taxonomies %}
+				  <ul class="tags">
+					  {%-for item in taxon -%}
+						  <li><a class="tag" href="{{ get_taxonomy_url(kind=name, name=item, lang=lang) }}">{{ item }}</a></li>
+					  {%- endfor %}
+				  </ul>
+			  {%- endfor -%}
+		  {%- endif %}
+	  </div>
 	</div>
 
 	<div id="buttons-container">
@@ -141,6 +148,24 @@
 	{{ page.content | safe }}
 </article>
 
+{% if page.extra.bibliography %}
+    {% set bibliography = page.extra.bibliography %}
+    {% set citations = load_data(path=page.colocated_path ~ bibliography, format="bibtex", required=false) %}
+    {% if citations %}
+        <div id="references">
+        {% set has_references = citations.bibliographies | length > 0 %}
+        {% if has_references %}
+            <h2>{{ macros_translate::translate(key="references", default="References", language_strings=language_strings) }}</h2>
+            <dl>
+            {% for citation in citations.bibliographies %}
+                {{ macros_references::ref(bibliography=citation,num=loop.index) }}
+            {% endfor %}
+            </dl>
+        {% endif %}
+        </div>
+    {% endif %}
+{% endif %}
+
 {%- if page.extra.comments.id -%}
 	{%- include "partials/comments.html" -%}
 {%- endif -%}
@@ -151,13 +176,13 @@
 		{%- if page.higher -%}
 			<a class="post-nav-item post-nav-prev" href="{{ page.higher.permalink }}">
 				<div class="nav-arrow">{{ macros_translate::translate(key="previous", default="Previous", language_strings=language_strings) }}</div>
-				<span class="post-title">{{ page.higher.title }}</span>
+				<span class="post-title">{{ page.higher.title | safe }}</span>
 			</a>
 		{%- endif -%}
 		{%- if page.lower -%}
 			<a class="post-nav-item post-nav-next" href="{{ page.lower.permalink }}">
 				<div class="nav-arrow">{{ macros_translate::translate(key="next", default="Next", language_strings=language_strings) }}</div>
-				<span class="post-title">{{ page.lower.title }}</span>
+				<span class="post-title">{{ page.lower.title | safe }}</span>
 			</a>
 		{%- endif -%}
 	</nav>

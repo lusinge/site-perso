@@ -1,6 +1,8 @@
 +++
 title = "S'INSCRIRE À L'UTS (speedrun any% [WR])"
 date = 2025-02-09
+description = "Ton plan de cours est validé ? Le conseil accepte que tu partes à l'UTS ? Maintenant, il y a une tonne de trucs administratifs à faire. Youpiii…"
+weight = 1
 [taxonomies]
 tags = ["Sydney", "UTS"]
 [markdown]
@@ -8,9 +10,8 @@ numbersections = true
 [extra]
 toc = true
 katex = true
+subtitle = "Résumé des démarches admistratives pour entrer à l'UTS"
 +++
-
-Ton plan de cours est validé ? Le conseil accepte que tu partes à l'UTS ? Maintenant, il y a une tonne de trucs administratifs à faire. Youpiii...
 
 ## Ce qu'il faut savoir avant de commencer
 
@@ -35,8 +36,6 @@ La deuxième chose à savoir, c'est qu'il faut passer une certification de nivea
 
 {% alert(note=true) %}
 Perso, j'ai passé le TOEFL version internet chez moi.
-
-Ah, et le truc des notes du bac + lycée ça marche pas pour le DD. On est obligés de passer un TOEFL/IELTS/Advanced...
 {% end %}
 
 {% alert(caution=true) %}
@@ -64,9 +63,9 @@ Le DD est issu d'un accord UTS - IMT Atlantique à la base. Ça ralentit pas mal
 Je conseille de lire l'aparté sur mon expérience personnelle ci-dessous.
 <details>
 
-  <summary>comment ce double intermédiaire a failli me coûter mon inscription</summary>
+  <summary> Comment ce double intermédiaire a failli me coûter mon inscription </summary>
 
-On est en mi-avril. Mon dossier d'inscription UTS était complété et envoyé. Le site internet m'indique que son statut est passé de "Assessing" à "Awaiting Further Information". Je ne reçois rien dans mes mails. 
+On est en mi-avril. Mon dossier d'inscription UTS était complété et envoyé. Leur site internet m'indique que son statut est passé de "Assessing" à "Awaiting Further Information". Je ne reçois rien dans mes mails. 
 
 Après une semaine sans nouvelle, j'écris au pôle international pour savoir s'ils ont reçu un mail de l'UTS. C'est un "non". 
 
@@ -114,15 +113,15 @@ Une autre semaine s'écoule et toujours rien. J'envoie de moi-même un mail à l
 >
 >Kind Regards,
 
-Ah bah super. On est fin avril maintenant. S'ils avaient envoyé le mail directement à moi, ça aurait été réglé depuis longtemps déjà. Bref, je demande à l'école de m'envoyer ces documents. Je règle le problème en moins d'une heure après deux semaines d'inaction côté IMT/EMSE.
+Ah bah super. On est fin avril maintenant. S'ils avaient envoyé le mail directement à moi, ça aurait été réglé depuis longtemps déjà. Bref, je demande à l'école de m'envoyer ces documents. Je règle le problème en moins d'une heure après deux semaines stagnantes.
 
 Morale de l'histoire : 
 
 - Activement surveiller l'évolution de **son** dossier d'inscription. 
-- Ne pas entièrement se reposer sur le pôle international. 
+- Ne pas entièrement se reposer sur le pôle international: Ils gèrent une tonne de demande de DD et d'échanges dans pleins d'autres universités. Des choses comme ça, ça peut arriver.
 - Ne pas hésiter à envoyer des mails directement à l'UTS. 
 
-Le pôle international gère une tonne de demande de DD et d'échanges dans pleins d'autres universités. Des choses comme ça, ça peut arriver. 
+ 
 
 </details>
 {% end %}
@@ -206,7 +205,7 @@ Moi, comme je trouvais mon inscription à l'UTS pas assez compliquée et que j'a
 
 ### Fin mai / début juin
 
-L'heure de faire une demande de visa a sonné. Plus d'infos sur ça dans cet [article](https://example.com).
+L'heure de faire une demande de visa a sonné. Plus d'infos sur ça dans cet [article](@/australie/uts/visa/index.md).
 
 Ensuite, il faut s'inscrire aux cours choisis. Pour ça, l'UTS donne le mail d'un coordinateur éducatif. Après lui avoir envoyé un mail, ceuil-ci va te donner la liste des cours dispos. Après lui avoir répondu avec tes cours choisis, il faut aller sur le [timetable planner](https://www.uts.edu.au/current-students/timetable/uts-timetable-planner) pour prendre les créneaux qui t'avantagent le plus.
 

@@ -46,7 +46,7 @@ issues_url = ""
 
 source_url = "https://github.com/lusinge/site-perso"
 
-styles = ["custom.css", "article.css"]
+styles = ["custom.css"]
 
 fix_contrast = true
 
@@ -55,7 +55,7 @@ show_reading_time = true
 [extra.nav]
 
 links = [
-  { url = "@/blog/_index.md", name = "Blog" },
+  { url = "@/australie/uts/_index.md", name = "🇦🇺 / UTS" },
 ]
 
 show_feed = true
@@ -75,3 +75,4 @@ show_johnvert = false
 show_powered_by = true
 
 show_source = false
+

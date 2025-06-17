@@ -25,6 +25,10 @@ article > p {
 	  	text-align: justify;
 }
 
+#heading {
+  hyphens: auto;
+}
+
 #title {
 		text-align: justify;
 		text-transform: uppercase;
@@ -40,11 +44,11 @@ article > p {
 		}
 }
 
-#heading	description {
+#description {
 	  text-transform: uppercase;
 		font-style: italic;
 		text-align: justify;
-	}
+}
 
 h2 {
   color: var(--accent-color);
@@ -53,11 +57,38 @@ h2 {
 }
 
 table {
-  width: 100%;                /* prevent it becoming wider than wrapper */
+  width: 100%;
   max-width: 100%;
-  border-collapse: collapse;  /* optional, reduces chance of extra width */
+  border-collapse: collapse;
 
-	td, th {                      /* stop long words from stretching cells */
+	td, th {
 		word-break: break-word;
 	}
+}
+
+a.ref-link {
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+#references {
+    dl {
+        display: grid;
+        overflow: hidden;
+        grid-template-columns: max-content minmax(0,1fr);
+        row-gap: 0.8rem;
+    }
+
+    dt {
+        grid-column-start: 1;
+        padding-right: 0.8rem;
+    }
+
+    dd {
+        grid-column-start: 2;
+        -webkit-hyphens: auto;
+        -moz-hyphens: auto;
+        -ms-hyphens: auto;
+        hyphens: auto;
+    }
 }

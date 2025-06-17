@@ -1,7 +1,8 @@
 +++
-title = "Comment obtenir un DD à Sydney !?"
-description = "Tu es un jeune ISMIN&nbsp;? Tu regardes les moutons dans le patio avec désarroi&nbsp;? Tu fantasmes sur une vida loca dans une grande ville, à l’opposé de Gardanne&nbsp;? Tu rêves d’aller à une plage encore plus accessible et plus bondée que le Prado&nbsp;? Cet article est fait pour toi&nbsp;!🫵"
+title = "Un DD à Sydney&nbsp;!?"
+description = "Marre de Gardanne&nbsp;? Les moutons du patio te causent désarroi&nbsp;? Envie de plage autre que le Prado&nbsp;? Vient découvrir Syndey et son Université Technologique&nbsp;!"
 date = 2024-12-01
+weight = 0
 [taxonomies]
 tags = ["Sydney", "UTS"]
 [markdown]
@@ -9,13 +10,15 @@ numbersections = true
 [extra]
 toc = true
 katex = true
-subtitle = "TUTO (2024) (HACK)"
+subtitle = "Aperçu du DD australien & exemple de plan de cours."
 +++
 
 ![L'Opéra de Sydney - Instax Wide 300](img/opera-house.webp)
 <figcaption>Fig. 1 : L'Opéra de Sydney - Instax Wide 300</figcaption>
 
-Le but de cet article est de retranscrire ce que j'ai vécu (**administrativement** et **scolairement** parlant) pour atterrir sur la plage de Bondi, après avoir assisté à un cours de l'Université Technologique de Sydney (UTS). Je pense que je suis le premier ISMIN à faire ça. C'était incroyablement stressant de faire ce procédé sans aucun alumni issu de Charpak, à qui poser des questions. J'espère que cet article aidera à comprendre comment ça marche. J'écrirai un autre article sur la vie à Sydney et à l'UTS.
+Cet article est le premier d'une série de publications sur le double diplôme de l'Université Technologique de Sydney. On va ici se concentrer sur l'aspect scolaire du séjour. 
+
+Je pense que j'étais le premier ISMIN à faire ce DD. C'était incroyablement stressant de faire ce procédé sans aucun alumni issu de Charpak, à qui poser des questions. Cette suite d'articles devrait réduire le stress que j'ai vécu pour les prochains arrivants.
 
 
 {% alert(caution=true) %}
@@ -26,7 +29,14 @@ Les infos sur cette page peuvent être obsolêtes. Ne vous reposez pas seulement
 
 On est en décembre, c'est l'heure de faire ses vœux pour les DD et les échanges. J'ai pas spécialement envie de rester dans notre belle ville rouge, je rêve de grandiose. J'aperçois l'UTS sur eCampus. 
 
-Le DD ne dure qu'1 (un) (uno) (ein) (one) (un mais en espagnol) an seulement. J'ai fait 5/2 ; j'ai pas envie de rajouter du temps d'étude dans ma vie. Je veux devenir un actif le plus tôt possible. C'est à Sydney. C'est une grande ville. C'est loin. Ça peut être une bonne aventure. Bref, j'accroche. 
+Le DD ne dure qu'1 (un) (one) an seulement:
+- J'ai fait 5/2. 
+- J'ai aucune envie de rallonger mes études. 
+- Je veux devenir un actif le plus tôt possible. 
+- C'est à Sydney. 
+- C'est une grande ville, c'est loin, ça peut être une bonne aventure...
+
+Bref, j'accroche. 
 
 Regardons ce que l'université offre de plus près.
 
@@ -96,16 +106,17 @@ Les matières associées à chaques majeures sont disponibles [ici](https://cour
 {% alert(warning=true) %}
 Sur le lien vers le "handbook" que j'ai donné juste au-dessus, ne prêtez surtout pas attention aux totaux de crédits nécessaire qui y sont écrit (Les "18 Credit Points", "42 Credit Points", "12 Credit Points"...)
 
-<fig>
-{{ image(url="img/ects.webp#transparent", transparent=true) }}
-<figcaption>Fig. 3 : Je vais rester poli parce qu'il y a des chances que l'administration lise ça.</figcaption>
-</fig>
-
-J'explique tout ici :
+<details>
+  <summary>Le plan de cours pour un résident australien (et non notre DD).</summary>
+  <fig>
+  {{ image(url="img/ects.webp#transparent", transparent=true) }}
+  <figcaption>Fig. 3&nbsp;: Le plan de cours pour un résident australien (et non notre DD).</figcaption>
+  </fig>
+</details>
 {% end %}
 
 
-Dans le cadre du DD IMT-UTS (et seulement dans le cadre du DD), les élèves ne doivent pas cumuler 18+42+12 _credit points_ (cp) avec le major choice, mais bien <mark>36 cp</mark>. Au lieu d'avoir 3 matières au choix dans la majeure, on en a 2. Au lieu de 3 matières dans le "Professional Engineering stream", on en a 2. On a aussi aucune "elective".
+Dans le cadre du DD IMT-UTS (et seulement dans le cadre du DD), les élèves ne doivent pas cumuler 18&nbsp;+&nbsp;42&nbsp;+&nbsp;12&nbsp;_credit points_ (cp) avec le major choice, mais bien <mark>36 cp</mark>. Au lieu d'avoir 3 matières au choix dans la majeure, on en a 2. Au lieu de 3 matières dans le "Professional Engineering stream", on en a 2. On a aussi aucune "elective".
 
 Résumons tout ça. On a :
 
@@ -133,34 +144,6 @@ Je flashe sur _Telecommunications and Electronics_. J'aime bien l'électronique,
 | [_Professional Engineering choice_](https://handbook.uts.edu.au/directory/cbk90955.html) | [_Risk Management in Engineering_](https://handbook.uts.edu.au/subjects/49006.html)        |
 | [_Professional Engineering choice_](https://handbook.uts.edu.au/directory/cbk90955.html) | [_Managing Projects_](https://handbook.uts.edu.au/subjects/49002.html)                     |
 
-<!-- ## Le visa
+## Envie de prendre part à l'expérience ?
 
-Le visa se fait majoritairement en ligne. Il coûte 1600 AUD (~1000 €).
-{% alert(note=true) %}
-Le DD UTS est un "master by coursework". Cochez bien ça lors de la demande du visa.
-{% end %}
-
-### Les CoE
-
-Si l'UTS accepte l'inscription, elle va envoyer deux _Confirmation of Enrollment_ (CoE). Une pour le premier semestre, une pour le deuxième. C'est des documents nécessaires à l'obtention du visa.
-
-{% alert(caution=true) %}
-J'AI FAIT UNE GRAVE ERREUR LIÉE AUX CoE !!! Lorsque j'ai fait mon visa, j'ai utilisé qu'une seule CoE. Mon visa se terminait seulement alors après le 1er semestre. J'ai dû refaire un visa pour le deuxième semestre. Pourquoi cette erreur ? Parce que l'UTS envoie d'abord la CoE du 1er semestre, pour le "Study Abroad", puis demande de payer 60€ (si je me souviens bien) pour obtenir la deuxième CoE (oui, soixante balles). J'avais pas vu et j'ai fait mon visa avant de comprendre ça.
-{% end %}
-
-### L'OSHC
-
-Le visa demande d'avoir une OSHC (Overseas Student Health Cover). L'UTS a un partenariat avec [Medibank](https://www.medibank.com.au/overseas-health-insurance/oshc/uts/) pour ça. C'est une mutuelle (privée) qui fait les trucs de base. C'est 651 AUD pour un an.
-
-### Les empreintes digitales
-
-Après avoir complété le visa, le gouvernement australien demande de se faire prendre ses empreintes digitales. C'est écrit dans un mail qui arrive quelques jours après avoir envoyé la demande. Pour ça, il faut allez dans un bureau particulier à Paris. Ça coûte 50 €[^argent]. Par chance mon stage de 2A était à Paris. Après ça, le visa devrait être accepté quelques semaines plus tard.
-
----
-
-Si vous avez des questions, envoyez moi un mail à [lucien.gheerbrant@proton.me](mailto:lucien.gheerbrant@proton.me).
-
-[^marques]: J'ai raté le projet robot, qui n'a pas de rattrapage normalement. J'ai fait des turbos saltos arrière niveau 12 face à Marques afin de le passer pour aller en Australie.
-
-[^argent]: Ouais, il y a pleins de petits gros coûts comme ça.
- -->
+J'espère que cet article vous a aidés à mieux comprendre dans quoi vous vous lancez. Bien sûr, l'aspect scolaire n'est qu'une partie du séjour. Pour découvrir le reste, les articles sont disponibles [ici](@/australie/uts/_index.md).

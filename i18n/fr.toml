@@ -4,7 +4,7 @@ language_name = "Français"
 # (post publication date, tag posts list...).
 # Not used in comments, "date_locale" is used instead.
 # See https://docs.rs/chrono/0.4.31/chrono/format/strftime/index.html
-date_format = "%d %B %Y"
+date_format = "%A %e %B %Y"
 date_locale = "fr_FR"
 full_stop = "."  # Used at the end of a sentence.
 
@@ -103,6 +103,7 @@ updated = "Mis à jour le"
 view_comment = "Voir le commentaire"
 view_profile = "Voir le profil"
 warning = "Attention"
+references = "Réferences"
 
 # Quick navigation buttons.
 toggle_toc = "Afficher/Masquer la table des matières"
