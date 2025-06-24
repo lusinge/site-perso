@@ -1,6 +1,6 @@
 +++
 title = "Un DD à Sydney&nbsp;!?"
-description = "Marre de Gardanne&nbsp;? Les moutons du patio te causent désarroi&nbsp;? Envie de plage autre que le Prado&nbsp;? Vient découvrir Syndey et son Université Technologique&nbsp;!"
+description = "Marre de Gardanne&nbsp;? Les moutons du patio te causent désarroi&nbsp;? Envie de plage autre que le Prado&nbsp;? Vient découvrir Sydney et son Université Technologique&nbsp;!"
 date = 2024-12-01
 weight = 0
 [taxonomies]
