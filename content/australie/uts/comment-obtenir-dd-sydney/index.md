@@ -22,7 +22,7 @@ Je pense que j'étais le premier ISMIN à faire ce DD. C'était incroyablement s
 
 
 {% alert(caution=true) %}
-Les infos sur cette page peuvent être obsolêtes. Ne vous reposez pas seulement sur cet article, faites vos propres recherches, allez vous renseigner au pôle international.
+Les infos sur cette page peuvent être obsolètes Ne vous reposez pas seulement sur cet article, faites vos propres recherches, allez vous renseigner au pôle international.
 {% end %}
 
 ## Comment ça a commencé
