@@ -59,7 +59,10 @@ show_reading_time = true
 [extra.nav]
 
 links = [
-  { url = "@/australie/uts/_index.md", name = "🇦🇺 / UTS" },
+
+  { url = "@/australie/uts/_index.md", name = "UTS" },
+  # { url = "@/art/_index.md", name = "Art" },
+  { url = "@/blog/_index.md", name = "Blog" },
 ]
 
 show_feed = true

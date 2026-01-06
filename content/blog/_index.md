@@ -1,6 +1,6 @@
 +++
-title = "Guides"
-sort_by = "weight"
+title = "Publications"
+sort_by = "date"
 template = "article_list.html"
 page_template = "article.html"
 +++
