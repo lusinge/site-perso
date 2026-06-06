@@ -1,45 +1,34 @@
-base_url = "https://blog.lulurl.fr"
-
 title = "WORLD WIDE LULU"
+base_url = "https://blog.lulurl.fr"
 
 default_language = "fr"
 
 theme = "duckquill"
 
 compile_sass = true
-
+minify_html = true
 generate_feeds = true
 
 feed_filenames = ["rss.xml", "atom.xml"]
-
 build_search_index = true
-
-taxonomies = [{ name = "tags", feed = true }]
 
 author = "lulu"
 
+taxonomies = [{ name = "tags", feed = true }]
+
 [search]
-# index_format = "elasticlunr_json"
 index_format = "fuse_json"
 
 [markdown]
-highlight_code = true
-
-highlight_theme = "css"
-
-highlight_themes_css = [
-  { theme = "solarized-dark", filename = "syntax-theme-dark.css" },
-  { theme = "solarized-light", filename = "syntax-theme-light.css" },
-]
-
 smart_punctuation = true
-
 bottom_footnotes = true
+github_alerts = true
 
-show_backlinks = true
+[markdown.highlighting]
+light_theme = "solarized-light"
+dark_theme = "solarized-dark"
 
 [extra]
-
 accent_color = "#ffa348"
 
 emoji_favicon = "🪆"
@@ -56,13 +45,20 @@ fix_contrast = true
 
 show_reading_time = true
 
+show_copy_button = true
+
+show_share_button = true
+
+show_backlinks = true
+
 [extra.nav]
-
 links = [
-
-  { url = "@/australie/uts/_index.md", name = "UTS" },
-  # { url = "@/art/_index.md", name = "Art" },
   { url = "@/blog/_index.md", name = "Blog" },
+  { name = "Extras", menu = [
+    { url = "@/australie/uts/_index.md", name = "UTS" },
+  ] },
+  # { url = "@/art/_index.md", name = "Art" },
+
 ]
 
 show_feed = true
@@ -72,14 +68,8 @@ show_theme_switcher = true
 show_repo = true
 
 [extra.footer]
-
-johnvert_ref = "blog.lulurl.fr"
-
 show_copyright = true
-
-show_johnvert = false
 
 show_powered_by = true
 
 show_source = false
-
