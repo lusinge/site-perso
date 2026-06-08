@@ -41,6 +41,8 @@ emoji_favicon = "🪆"
 
 date_format = "%A %e %B %Y" # Vendredi 8 Octobre 2023
 
+banner = "banner.webp"
+
 issues_url = ""
 
 source_url = "https://github.com/lusinge/site-perso"
