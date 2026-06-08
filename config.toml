@@ -28,6 +28,12 @@ github_alerts = true
 light_theme = "solarized-light"
 dark_theme = "solarized-dark"
 
+[languages.en-US]
+title = "WORLD WIDE LULU"
+generate_feeds = true
+build_search_index = true
+taxonomies = [{ name = "tags", feed = true }]
+
 [extra]
 accent_color = "#ffa348"
 
