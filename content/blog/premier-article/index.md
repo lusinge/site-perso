@@ -11,7 +11,7 @@ toc = true
 katex = true
 +++
 
-Bienvenu sur World Wide Lulu (WWL). Vers la mi-2024, j'ai pété un câble sur Twitter, et j'ai décidé de me couper des RS.
+Bienvenue sur World Wide Lulu (WWL). Vers la mi-2024, j'ai pété un câble sur Twitter, et j'ai décidé de me couper des RS.
 
 Maintenant, en big 2026, j'ai envie de reprendre le dessin + d'écrire mes opinions que personne ne va lire.
 
